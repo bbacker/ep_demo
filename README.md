@@ -1,4 +1,4 @@
-# ep_demo
+# vg_demo
 
 vagrant file learning exercise
 
@@ -12,20 +12,20 @@ need to interactively choose the interface on vagrant host to which
 the vm ip should be bridged.
 
 	% vagrant up
-	Bringing machine 'epdemo' up with 'virtualbox' provider...
-	==> epdemo: Checking if box 'bento/centos-7.2' is up to date...
-	==> epdemo: Clearing any previously set network interfaces...
-	==> epdemo: Available bridged network interfaces:
+	Bringing machine 'vgdemo' up with 'virtualbox' provider...
+	==> vgdemo: Checking if box 'bento/centos-7.2' is up to date...
+	==> vgdemo: Clearing any previously set network interfaces...
+	==> vgdemo: Available bridged network interfaces:
 	1) eno1
 	2) docker0
 	3) wlp2s0
-	==> epdemo: When choosing an interface, it is usually the one that is
-	==> epdemo: being used to connect to the internet.
-	    epdemo: Which interface should the network bridge to? 1
-	==> epdemo: Preparing network interfaces based on configuration...
-	    epdemo: Adapter 1: nat
-	    epdemo: Adapter 2: bridged
-	==> epdemo: Forwarding ports...
-	    epdemo: 80 (guest) => 8080 (host) (adapter 1)
-	    epdemo: 22 (guest) => 2222 (host) (adapter 1)
+	==> vgdemo: When choosing an interface, it is usually the one that is
+	==> vgdemo: being used to connect to the internet.
+	    vgdemo: Which interface should the network bridge to? 1
+	==> vgdemo: Preparing network interfaces based on configuration...
+	    vgdemo: Adapter 1: nat
+	    vgdemo: Adapter 2: bridged
+	==> vgdemo: Forwarding ports...
+	    vgdemo: 80 (guest) => 8080 (host) (adapter 1)
+	    vgdemo: 22 (guest) => 2222 (host) (adapter 1)
 	...

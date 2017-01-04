@@ -8,8 +8,8 @@
 Vagrant.configure("2") do |config|
 
     config.vm.box = "bento/centos-7.2"
-    config.vm.hostname = "epdemo"
-    config.vm.define "epdemo"
+    config.vm.hostname = "vgdemo"
+    config.vm.define "vgdemo"
 
     config.vm.network "forwarded_port", guest: 80, host: 8080
 
