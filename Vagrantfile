@@ -7,7 +7,8 @@
 
 Vagrant.configure("2") do |config|
 
-    config.vm.box = "bento/centos-7.2"
+    config.vm.box = "bento/centos-6.7"
+    #config.vm.box = "bento/centos-7.2"
     config.vm.hostname = "vgdemo"
     config.vm.define "vgdemo"
 
